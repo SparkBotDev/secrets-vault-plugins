@@ -1,0 +1,15 @@
+{
+	"semi": true,
+	"singleQuote": true,
+	"printWidth": 80,
+	"bracketSpacing": true,
+	"useTabs": true,
+	"overrides": [
+		{
+			"files": ["*.jsonc"],
+			"options": {
+				"trailingComma": "none"
+			}
+		}
+	]
+}

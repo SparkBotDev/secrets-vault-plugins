@@ -1,0 +1,44 @@
+{
+  "name": "sparkbot",
+  "version": "0.1.0",
+  "description": "A lightning-fast Discord bot framework with advanced features designed to make development effortless.",
+  "author": "Brian Lister <brian@sparkforge.dev (http://sparkforge.dev/)",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "lint": "prettier . --check; xo; markdownlint-cli2 '**/*.md' '#node_modules'; tsc --noEmit --skipLibCheck",
+    "commit": "lint-staged",
+    "prepare": "husky",
+    "coverage": "typescript-coverage-report"
+  },
+  "lint-staged": {
+    "*.ts": [
+      "prettier --write",
+      "xo"
+    ],
+    "*.md": [
+      "prettier --write",
+      "markdownlint-cli2"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "@types/bun": "^1.1.4",
+    "husky": "^9.0.11",
+    "lerna": "^8.1.3",
+    "lint-staged": "^15.2.7",
+    "markdownlint-cli2": "^0.13.0",
+    "prettier": "^3.3.2",
+    "type-coverage": "^2.29.0",
+    "xo": "^0.58.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.5.2"
+  }
+}
