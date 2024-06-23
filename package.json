@@ -1,7 +1,7 @@
 {
-  "name": "sparkbot",
-  "version": "0.1.0",
-  "description": "A lightning-fast Discord bot framework with advanced features designed to make development effortless.",
+  "name": "@sparkbot/secrets-vault-plugins",
+  "version": "0.0.0",
+  "description": "Secrets vault plugins for Spark⚡️Bot",
   "author": "Brian Lister <brian@sparkforge.dev (http://sparkforge.dev/)",
   "license": "MIT",
   "type": "module",
