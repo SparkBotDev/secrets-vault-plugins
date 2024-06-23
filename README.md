@@ -21,7 +21,7 @@ We are very interested in extending the plugins available for Spark⚡️Bot. If
 
 ### Official
 
--
+- [@sparkbot/plugin-secrets](./packages/base/#readme) - Default plugin, reads values from environment variables.
 
 ### 3rd party
 
