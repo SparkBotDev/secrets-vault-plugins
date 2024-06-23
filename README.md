@@ -29,6 +29,6 @@ We are very interested in extending the plugins available for Spark⚡️Bot. If
 
 Contributions make Spark⚡️Bot even more dynamic and powerful. Whether you're an experienced developer or just starting out, your ideas, code, and feedback are invaluable. Join our community and help us shape the future of Discord bot development. Together, we can ignite sparks of innovation and elevate the Discord experience for everyone.
 
-Creating a secrets vault plugin requires extending the SecretsVault class from the base plugin package. When Spark⚡️Bot initializes your class it passes in an options object from the config, and expects a method `get(key: string) => string` which returns the value of a requested key.
+Creating a secrets vault plugin requires extending the SecretsVault class from the @sparkbot/plugin-secrets package. When Spark⚡️Bot initializes your class it passes in an options object from the config, and expects a method `get(key: string) => Promise<string>` which returns the value of a requested key.
 
 This project is released under the terms of the MIT License, which allows for freedom in use and modification. We encourage collaboration and welcome contributions from the community to make Spark⚡️Bot even better!
