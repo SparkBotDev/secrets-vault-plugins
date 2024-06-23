@@ -3,6 +3,7 @@
 <div align="center">
     <a href="https://bun.sh"><img alt="Runs on Bun" src="https://img.shields.io/badge/Runs%20on%20Bun-%23E37AB4?style=flat&logo=bun&logoColor=%23F9F1E1&logoSize=auto&labelColor=%232F2F2F" height=30></a>&nbsp;
     <a href="https://discord.js.org"><img alt=" Built with discord.js" src="https://github.com/SparkBotDev/.github/raw/main/assets/images/discordjs-badge.svg" height=30></a>&nbsp;
+    <a href="https://valibot.dev"><img alt="Validates with Valibot" src="https://github.com/SparkBotDev/.github/raw/main/assets/images/valibot-badge.svg" height=30></a>&nbsp;
     <a href="https://github.com/xojs/xo"><img alt="XO code style" src="https://shields.io/badge/code_style-5ed9c7?logo=xo&labelColor=gray" height=30></a>&nbsp;
 </div>
 <div align="center">
@@ -22,3 +23,9 @@ It also contains the interface and abstract class that must be extended to creat
 @sparkbot/plugin-secrets is already included in the Spark⚡️Bot codebase, and the package should not be removed as it contains necessary interfaces for all other plugins to operate.
 
 To configure your Spark⚡️Bot to use @sparkbot/plugin-secrets you just need to update `sparkbot.config.ts`:
+
+```ts
+secretsVaultPlugin: {
+	module: '@sparkbot/plugin-secrets',
+},
+```
