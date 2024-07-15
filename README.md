@@ -22,6 +22,7 @@ We are very interested in extending the plugins available for Spark⚡️Bot. If
 ### Official
 
 - [@sparkbot/plugin-secrets](./packages/base/#readme) - Default plugin, reads values from environment variables.
+- [@sparkbot/plugin-secrets-azure](./packages/azure-keyvault/#readme) - Uses [Azure Key Vault](https://azure.microsoft.com/en-us/products/key-vault/) for secrets management.
 
 ### 3rd party
 
