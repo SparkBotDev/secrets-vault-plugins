@@ -5,7 +5,7 @@
   "author": "Brian Lister <brian@sparkforge.dev (http://sparkforge.dev/)",
   "license": "MIT",
   "type": "module",
-  "dependencies": { "@azure/identity": "^4.3.0", "@azure/keyvault-secrets": "^4.8.0", "@sparkbot/plugin-secrets": "link:@sparkbot/plugin-secrets", "valibot": "^0.33.3" },
+  "dependencies": { "@azure/identity": "^4.3.0", "@azure/keyvault-secrets": "^4.8.0", "@sparkbot/plugin-secrets": "^0.1.0", "valibot": "^0.33.3" },
   "devDependencies": {},
   "peerDependencies": {
     "typescript": "^5.4.5"
