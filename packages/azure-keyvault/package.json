@@ -1,13 +1,17 @@
 {
-  "name": "@sparkbot/plugin-secrets-azure",
-  "version": "0.0.0",
-  "description": "Spark⚡️Bot secrets plugin that uses an Azure Key Vault for storage.",
-  "author": "Brian Lister <brian@sparkforge.dev (http://sparkforge.dev/)",
-  "license": "MIT",
-  "type": "module",
-  "dependencies": { "@azure/identity": "^4.3.0", "@azure/keyvault-secrets": "^4.8.0", "@sparkbot/plugin-secrets": "^0.1.0", "valibot": "^0.33.3" },
-  "devDependencies": {},
-  "peerDependencies": {
-    "typescript": "^5.4.5"
-  }
+	"name": "@sparkbot/plugin-secrets-azure",
+	"version": "0.1.0",
+	"description": "Spark⚡️Bot secrets plugin that uses an Azure Key Vault for storage.",
+	"author": "Brian Lister <brian@sparkforge.dev (http://sparkforge.dev/)",
+	"license": "MIT",
+	"type": "module",
+	"dependencies": {
+		"@azure/identity": "^4.3.0",
+		"@azure/keyvault-secrets": "^4.8.0",
+		"@sparkbot/plugin-secrets": "^0.1.0",
+		"valibot": "^0.33.3"
+	},
+	"peerDependencies": {
+		"typescript": "^5.4.5"
+	}
 }
