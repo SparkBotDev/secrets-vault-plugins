@@ -1,21 +1,21 @@
 {
-  "name": "@sparkbot/secrets-vault-plugins",
-  "version": "0.0.0",
-  "description": "Secrets vault plugins for Spark⚡️Bot",
-  "author": "Brian Lister <brian@sparkforge.dev (http://sparkforge.dev/)",
-  "license": "MIT",
-  "type": "module",
-  "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
-  "scripts": {
+	"name": "@sparkbot/secrets-vault-plugins",
+	"version": "0.0.0",
+	"description": "Secrets vault plugins for Spark⚡️Bot",
+	"author": "Brian Lister <brian@sparkforge.dev (http://sparkforge.dev/)",
+	"license": "MIT",
+	"type": "module",
+	"private": true,
+	"workspaces": [
+		"packages/*"
+	],
+	"scripts": {
 		"lint": "prettier . --write --log-level warn; xo; markdownlint-cli2 '**/*.md' '#node_modules'; tsc --noEmit --skipLibCheck",
 		"release": "lerna publish"
 	},
-  "dependencies": {},
-  "devDependencies": {
-    "@commitlint/cli": "^19.5.0",
+	"dependencies": {},
+	"devDependencies": {
+		"@commitlint/cli": "^19.5.0",
 		"@commitlint/config-conventional": "^19.5.0",
 		"@types/bun": "^1.1.9",
 		"markdownlint-cli2": "^0.14.0",
@@ -23,8 +23,8 @@
 		"type-coverage": "^2.29.1",
 		"xo": "^0.59.3",
 		"lerna": "^8.1.8"
-  },
-  "peerDependencies": {
-    "typescript": "^5.6.2"
-  }
+	},
+	"peerDependencies": {
+		"typescript": "^5.6.2"
+	}
 }
