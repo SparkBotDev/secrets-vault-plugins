@@ -3,9 +3,9 @@
 		"oven.bun-vscode",
 		"streetsidesoftware.code-spell-checker",
 		"joshbolduc.commitlint",
-		"editorconfig.editorconfig",
 		"davidanson.vscode-markdownlint",
 		"esbenp.prettier-vscode",
-		"samverschueren.linter-xo"
+		"samverschueren.linter-xo",
+		"york-yao.vscode-type-coverage"
 	]
 }
