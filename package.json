@@ -17,10 +17,10 @@
 	"devDependencies": {
 		"@commitlint/cli": "^19.5.0",
 		"@commitlint/config-conventional": "^19.5.0",
-		"@types/bun": "^1.1.9",
+		"@types/bun": "^1.1.11",
 		"markdownlint-cli2": "^0.14.0",
 		"prettier": "^3.3.3",
-		"type-coverage": "^2.29.1",
+		"type-coverage": "^2.29.7",
 		"xo": "^0.59.3",
 		"lerna": "^8.1.8"
 	},

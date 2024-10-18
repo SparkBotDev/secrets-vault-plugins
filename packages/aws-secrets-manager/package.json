@@ -1,16 +1,16 @@
 {
 	"name": "@sparkbot/plugin-secrets-aws",
-	"version": "0.1.0",
-	"description": "Spark⚡️Bot secrets plugin that uses an Azure Key Vault for storage.",
+	"version": "0.2.0",
+	"description": "Spark⚡️Bot secrets plugin that uses an AWS Secrets Manager store for storage.",
 	"author": "Brian Lister <brian@sparkforge.dev (http://sparkforge.dev/)",
 	"license": "MIT",
 	"type": "module",
 	"dependencies": {
-		"@aws-sdk/client-secrets-manager": "^3.654.0",
+		"@aws-sdk/client-secrets-manager": "^3.674.0",
 		"@sparkbot/plugin-secrets": "^0.1.0",
-		"valibot": "^0.33.3"
+		"valibot": "^0.42.1"
 	},
 	"peerDependencies": {
-		"typescript": "^5.6.2"
+		"typescript": "^5.6.3"
 	}
 }
