@@ -10,7 +10,7 @@
 		"packages/*"
 	],
 	"scripts": {
-		"lint": "prettier . --write --log-level warn; xo; markdownlint-cli2 '**/*.md' '#node_modules'; tsc --noEmit --skipLibCheck",
+		"lint": "prettier . --write --log-level warn; xo; markdownlint-cli2 '**/*.md' '#**/node_modules'; tsc --noEmit --skipLibCheck",
 		"release": "lerna publish"
 	},
 	"dependencies": {},
