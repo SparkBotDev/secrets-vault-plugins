@@ -35,7 +35,7 @@ export class SecretsVaultPlugin extends SecretsVault {
 		const requestedKey = key.split('/').at(-1);
 		const requestedSecret = key.split('/').slice(0, -1).join('/');
 		if (!requestedKey || !requestedSecret)
-			throw new Error('Invalid key format');
+			throw new Error('Invalid key format. Expected "secretName/keyName"');
 
 		// If secrets from AWS have already been cached use them.
 		if (this.isCached) {
