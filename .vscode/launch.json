@@ -9,7 +9,7 @@
 			"internalConsoleOptions": "neverOpen",
 			"request": "launch",
 			"name": "Debug File",
-			"program": "index.ts",
+			"program": "${file}",
 			"cwd": "${workspaceFolder}",
 			"stopOnEntry": false,
 			"watchMode": false
