@@ -19,7 +19,7 @@
 			"internalConsoleOptions": "neverOpen",
 			"request": "launch",
 			"name": "Run File",
-			"program": "index.ts",
+			"program": "${file}",
 			"cwd": "${workspaceFolder}",
 			"noDebug": true,
 			"watchMode": false
