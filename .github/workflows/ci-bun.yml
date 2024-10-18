@@ -18,6 +18,6 @@ jobs:
       - run: bun install --frozen-lockfile
       - run: bun prettier . --check
       - run: bun xo
-      - run: bun markdownlint-cli2 '**/*.md' '#node_modules'
+      - run: bun markdownlint-cli2 '**/*.md' '#**/node_modules'
       - run: tsc --noEmit --skipLibCheck
       - run: bun test
