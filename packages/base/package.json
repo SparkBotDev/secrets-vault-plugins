@@ -1,6 +1,6 @@
 {
 	"name": "@sparkbot/plugin-secrets",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "The default secrets vault plugin for Spark⚡️Bot.",
 	"author": "Brian Lister <brian@sparkforge.dev (http://sparkforge.dev/)",
 	"license": "MIT",
